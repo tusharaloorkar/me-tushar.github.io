@@ -1,0 +1,86 @@
+---
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+version: 2
+name: Tushar Aloorkar
+title: Software Developer
+email: taloorkar701@gmail.com
+website: www.github.com/tusharaloorkar
+darkmode: false
+github_username: tusharaloorkar
+linkedin_username: https://www.linkedin.com/in/tusharaloorkar/
+about_profile_image: IMG_20191210_012644_879.jpg
+about_content: >
+  Hi, my name's Tushar and I'm a Software Engineer. As a Engineer, I am passionate about building high-quality applications that are scalable, reliable, and maintainable. With experience working on various projects, I have 2 years of experience in designing and developing virtual vehicle control for autonomous
+  vehicles and have interest in Embedded/controls background.
+  My technical skills include proficiency in Python programming, ROS/ROS2 Framework, Communication Protocols such as CAN, SPI, I2C, UART, GSM. I also have experience with Applications such as  MATLAB, PCAN view, PiSnoop, Vector CAN Tools, which enable me to firmware devlopment.
+  In my previous roles, I have collaborated with cross-functional teams to develop FW-SW Interface solutions that meet business requirements and deliver value to end-users. I am a quick learner and always eager to explore new technologies and tools that can enhance the quality and performance of my code.
+  If you're looking for a Hardware-software integration Engineer who is Collaborative team player with a passion for staying up to date on the latest industry trends and driving successful product launches. I'm always open to discussing new opportunities and challenges.
+
+  I am most skilled in: <mark>Python</mark>, <mark>ROS</mark>, <mark>CAN</mark> and ofcourse <mark>Gamer</mark>!
+content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        sub_title: Languages
+        description: >
+          Python, SQL, C, C++, Bash, Arduino,
+          and MATLAB
+      - layout: left
+        sub_title: Frameworks/Technologies
+        description: >
+          Git, Jenkins, Docker, ROS, ROS 2, Bootloaders, PCAN view, PiSnoop, Vector CAN Tools
+      - layout: left
+        sub_title: Areas of Interest
+        description: |
+          Problem Solving, Embedded C/C++, Real-Time Operating Systems (RTOS), Firmware devlopment.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Monarch India Ltd, Hyderabad, India
+        link: https://www.monarchtractor.com/
+        sub_title: Software Engineer
+        caption: September 2022 - Present
+        quote: >
+          Primarily focus on Hardware-software integration' designing and developing virtual vehicle control for 
+          autonomous vehicles
+        description: >
+          My responsibilities extend to Led the integration of CAN signals into software systems for a driverless autonomous tractor, enhancing real-time vehicle control, 
+          where I've had the opportunity to Develop and implement new functionalities, integrating them into software systems within a web app using ROS (Robot Operating System), 
+          enabling enhanced control and monitoring of the autonomous tractor.
+
+          I have had opportunity to Perform root cause analysis and troubleshooting for various failures in a fleet of 300+ tractors, ensuring minimal downtime and increased system reliability. Additionally, I've been actively involved in code reviews to ensure the delivery of high-quality solutions. 
+
+          Furthermore, I've had the opportunity to work on Project Management through Agile Methodologies, JIRA, Confluence, Jama, Asana, GitHub.
+      - layout: center
+        title: Jawaharlal Nehru Port Trust
+        link: https://www.jnport.gov.in/
+        sub_title: Graduate Apprenticeship Trainee
+        caption: february 2021 - february 2022
+        quote: >
+          Maintenance and enhancement of a Navis N4 terminal operations software under guidance.
+        description: >
+          I was responsible for maintaining Navis N4 terminal operations software, which is responsible for the planning of port operations and container yards.
+          Also critical testing using automation tools such as selenium webdriver and bug fixing.
+  - title: A Little More About Me
+    layout: text
+    content: >
+      Alongside my interests in networks and software engineering some of my
+      other interests and hobbies are:
+
+      - [Writing blog : link ->](https://wordssaysbetter.wordpress.com/)
+
+      - Gaming
+
+      - Watching crime documentaries
+
+      - Big fan of cricket
+footer_show_references: true
+remote_theme: sproogen/resume-theme
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-seo-tag
